@@ -21,7 +21,6 @@ void printArray(int arr[], int size){
 void bubbleSort(int arr[], int n){
     int i, j, temp, count = 0;
     for (i = 0; i < n-1; i++){
-        printf("\n");
         for (j = 0; j < n-1; j++){
             if (arr[j] > arr[j+1]){
                 temp = arr[j];
